@@ -9,11 +9,7 @@ RUN apt-get update
 RUN apt-get install -y python-qt4
 # sudo
 RUN apt-get install sudo
-# rpm
-RUN apt-get install rpm
-# yum
-
+# curl&telnet
+RUN apt-get install -y curl telnet
 # ping
 RUN apt-get install iputils-ping
-
-RUN apt-get install net-tools
