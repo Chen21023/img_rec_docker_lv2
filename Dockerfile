@@ -12,4 +12,4 @@ RUN apt-get install sudo
 # curl&telnet
 RUN apt-get install -y curl telnet
 # ping
-RUN apt-get install iputils-ping
+RUN apt-get install -y iputils-ping
